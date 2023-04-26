@@ -1,0 +1,208 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+.ilk {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  flex-wrap:wrap;
+ 
+}
+@media screen and (max-width: 768px) {
+    .ilk{
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        gap:20px;
+    }
+}
+.ilk ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:center
+  align-items: center
+  padding: 0;
+  margin: 0;
+  gap:30px;
+}
+.ilk ul i{
+    font-size:1.6rem;
+    color:grey;
+    
+    border:1px solid grey;
+    padding:4px 7px;
+    border-radius:50%;
+    background-color:#F5F5F5;
+}
+.navbar{
+    background-color:#F5F5F5!important;
+    padding:30px 15px;
+    position:sticky;
+    top:0;
+    z-index:9999;
+   
+    
+ 
+    
+}
+
+.navbar strong i{
+    color:white;
+    background-color:#A26028;
+    padding:5px 8px;
+    border-radius:50%;
+    font-size:2rem;
+    text-align:center;
+   
+}
+.ana-res{
+    background-image: url('/assets/img/1-74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.webp');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    height:700px;
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:start;
+    gap:40px;
+    color:white;
+    padding-left:30px;
+   
+    
+    
+
+}
+.ana-res-dıs{
+    padding:80px;
+    background-color:#F5F5F5 !important;
+ 
+   
+    
+}
+
+.ana-res h3{
+    font-size:4rem;
+}
+.ana-res .but{
+    font-size:1.5rem;
+    border-color:white;
+    color:grey;
+    padding:0 30px;
+    opacity:0.8;
+}
+.alt-res{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    padding:80px;
+    background-color:#F5F5F5;
+    flex-wrap:wrap;
+}
+
+.alt-res-bg{
+    background-image: url("/assets/img/2-84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.webp");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:contain;
+    height:700px;
+    width:auto;
+    flex:0 1 600px;
+   
+   
+    
+}
+.alt-res .konu{
+    flex:1 1 100px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+    align-items:start;
+    justify-content:start;
+}
+.alt-res .konu button{
+    padding:5px 10px;
+    background-color:black;
+    color:grey;
+}
+.alt-res .konu button:hover{
+    background-color:orange;
+    transition: all .5s;
+
+}
+.cardlar{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card-body h3{
+    color:#A26028;
+}
+.sct-uc-res {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+.sct-uc-res-a,
+.sct-uc-res-b,
+.sct-uc-res-c{
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+.sct-uc-res-but{
+    text-align:center;
+    padding-top:100px;
+}
+.sct-uc-res-but button{
+    padding:5px 10px;
+    background-color:black;
+    color:grey;
+}
+.sct-uc-res-but button:hover{
+    background-color:orange;
+    transition: all .5s;
+}
+.form{
+    padding:50px 0;
+    background-color:black;
+    color:white;
+    flex-wrap:wrap;
+    gap:15px;
+}
+.form span{
+    display:flex;
+    flex-direction: column;
+    line-height:40px;
+}
+.img{
+    flex-wrap: wrap;
+    display:flex;
+}
+.sağ-alt-kose{
+    display:inline-block;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    background-color:#A26028;
+    color:white;
+    padding:15px;
+}
+.sağ-alt-kose i,.sağ-alt-kose a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.sağ-alt-kose i{
+    font-size:1.1rem;
+    
+}
